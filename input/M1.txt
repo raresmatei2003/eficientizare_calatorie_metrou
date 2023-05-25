@@ -1,0 +1,22 @@
+21
+Pantelimon 2
+Republica 3
+Costin_Georgian 2
+Titan 3
+Nicolae_Grigorescu 5
+Dristor 6
+Mihai_Bravu 3
+Timpuri_noi 5
+Piata_Unirii 3
+Izvor 3
+Eroilor 6
+Grozavesti 5
+Petrache_Poenaru 3
+Crangasi 5
+Basarab 2
+Gara_de_Nord 7
+Piata_Romana 3
+Stefan_cel_Mare 4
+Obor 4
+Piata_Muncii 4
+Dristor 0
