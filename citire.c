@@ -93,7 +93,7 @@ void get_adj_mat(char *linie, char **cod, int nr_st, graf harta)
 	}
 }
 
-int citire(graf *harta, char ***cod, int *nr_st)
+void citire(graf *harta, char ***cod, int *nr_st)
 {
 	int n = 3, i;
 
@@ -110,6 +110,4 @@ int citire(graf *harta, char ***cod, int *nr_st)
 		get_adj_mat(linie, *cod, *nr_st, *harta);
 		linie[0]++;
 	}
-
-	return 0;
 }

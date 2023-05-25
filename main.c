@@ -9,7 +9,5 @@ int main()
 
 	citire(&harta, &cod, &nr_st);
 
-    
-
 	return 0;
 }
