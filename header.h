@@ -5,6 +5,13 @@
 #define NR_LINII 5
 #define MAX_CHAR_NR 30
 
+#define FREE_MAT(M, N)                                                         \
+	while (N >= 0) {                                                           \
+		free(*(M + N));                                                        \
+		N--;                                                                   \
+	}                                                                          \
+	free(M);
+
 typedef struct graf {
 	int n;
 	int **mat;
@@ -24,4 +31,4 @@ void get_adj_mat(char *linie, char **cod, int nr_st, graf harta);
 
 void citire(graf *harta, char ***cod, int *nr_st);
 
-void dijkstra(graf v, int start, int end, int *traseu, char **cod);
+void dijkstra(graf v, int start, int end, char **cod);

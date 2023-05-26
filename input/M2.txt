@@ -8,7 +8,7 @@ Eroii_Revolutiei 1
 Tineretului 4
 Piata_Unirii 5
 Universitate 2
-Piara_Romana 3
+Piata_Romana 3
 Piata_Victoriei 4
 Aviatorilor 3
 Aurel_Vlaicu 3
