@@ -7,8 +7,6 @@ int main()
 	graf harta;
 	int *traseu;
 
-	map_init(&harta, nr_st);
-
 	citire(&harta, &cod, &nr_st);
 
 	traseu = calloc(nr_st, sizeof(int));
