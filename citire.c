@@ -1,11 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "header.h"
 
-typedef struct graf {
-	int n;
-	int **mat;
-} graf;
 
 void map_init(graf *harta, int nr)
 {

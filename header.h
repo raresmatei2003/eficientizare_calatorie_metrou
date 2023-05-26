@@ -19,4 +19,6 @@ void get_codes(char *linie, char ***cod, int *nr_st);
 
 void get_adj_mat(char *linie, char **cod, int nr_st, graf harta);
 
-int citire();
+void citire(graf *harta, char ***cod, int *nr_st);
+
+void dijkstra(graf v, int start, int end, int *traseu, char **cod);
