@@ -1,6 +1,5 @@
 #include "header.h"
 
-
 void map_init(graf *harta, int nr)
 {
 	int i;
@@ -43,14 +42,14 @@ void get_codes(char *linie, char ***cod, int *nr_st)
 	int n, i;
 	fscanf(in, "%d", &n);
 
-	char nume_st[30];
+	char nume_st[MAX_CHAR_NR];
 	int buffer;
 
 	for (i = 0; i < n; i++) {
 		fscanf(in, "%s%d", nume_st, &buffer);
-        
+
 		int poz = caut_cod(*cod, *nr_st, nume_st);
-        
+
 		if (poz == -1) {
 			(*nr_st)++;
 			*cod = (char **)realloc(*cod, (*nr_st) * sizeof(char *));
@@ -70,7 +69,7 @@ void get_adj_mat(char *linie, char **cod, int nr_st, graf harta)
 	int n, i;
 	fscanf(in, "%d", &n);
 
-	char nume_st1[30], nume_st2[30];
+	char nume_st1[MAX_CHAR_NR], nume_st2[MAX_CHAR_NR];
 	int dist;
 
 	fscanf(in, "%s", nume_st1);
@@ -89,18 +88,18 @@ void get_adj_mat(char *linie, char **cod, int nr_st, graf harta)
 
 void citire(graf *harta, char ***cod, int *nr_st)
 {
-	int n = 3, i;
+	int i;
 
 	char linie[] = "1";
-	for (i = 1; i <= n; i++) {
+	for (i = 1; i <= NR_LINII; i++) {
 		get_codes(linie, cod, nr_st);
 		linie[0]++;
 	}
-    
+
 	map_init(harta, *nr_st);
 
 	strcpy(linie, "1");
-	for (i = 1; i <= n; i++) {
+	for (i = 1; i <= NR_LINII; i++) {
 		get_adj_mat(linie, *cod, *nr_st, *harta);
 		linie[0]++;
 	}

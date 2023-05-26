@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define NR_LINII 5
+#define MAX_CHAR_NR 30
+
 typedef struct graf {
 	int n;
 	int **mat;

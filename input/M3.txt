@@ -1,16 +1,16 @@
 15
 Anghel_Saligny 3
-Nicolae_Teclu 5
+Nicolae_Teclu 2
 1_Decembrie_1918 4
-Nicolae_Grigorescu 5
-Dristor 6
+Nicolae_Grigorescu 4
+Dristor 4
 Mihai_Bravu 3
-Timpuri_noi 5
+Timpuri_noi 4
 Piata_Unirii 3
 Izvor 3
-Eroilor 6
-Politehnica 4
-Lujerului 3
-Gorjului 4
-Pacii 4
+Eroilor 4
+Politehnica 3
+Lujerului 2
+Gorjului 2
+Pacii 3
 Preciziei 0
